@@ -10,3 +10,10 @@ Don't have expierence in IT-sphere, starting JS/Frontend developer
 ### Work expierence ###
 Succesful experience in FMCG Marketing Management  [link to linkedin](https://www.linkedin.com/in/dasha-litvinova-55700861/)
 ### Education ###
+Belorussian National State University, 2006-2011
+Business-administration
+### Languages ###
+English - B1-B2, International House, 2016
+Intermediate, "FLC", 2012
+### Interests ###
+Sport, dancing, reading
