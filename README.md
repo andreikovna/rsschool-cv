@@ -1,1 +1,0 @@
-https://andreikovna.github.io/rsschool-cv/
