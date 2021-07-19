@@ -2,3 +2,6 @@
 # Daria Litvinova #
 date of birth: 11/12/1988
 marital status: married
+## CONTACTS ##
+![](https://static.wixstatic.com/media/dc8ac8_f989b9c84de84d5583089415fac9ef32~mv2.png/v1/fill/w_35,h_35,al_c/dc8ac8_f989b9c84de84d5583089415fac9ef32~mv2.png)**cell** +375 29 511 50 57
+![](https://fiskedeal.dk/assets/0.1.103/page/images/icons/icon-mail.svg)**email** d.andreikovna@gmail.com
