@@ -135,6 +135,14 @@ body {
     padding: 20px;
 }
 
+.about-myself-title {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
 .about-myself{
     padding: 20px;
 }
