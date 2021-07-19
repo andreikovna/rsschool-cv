@@ -1,1 +1,1 @@
-https://andreikovna.github.io/rsschool-cv/
+https://andreikovna.github.io/rsschool-cv/cvcc
