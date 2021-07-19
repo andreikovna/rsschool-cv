@@ -1,0 +1,202 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    list-style: circle;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:#313131;
+}
+
+.main-content{
+    min-height: 100vh;
+    width: 80%;
+    margin: 20px auto 0px auto;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.left-section{
+    grid-column: span 2;
+    height: 100%;
+    background-color:#777499;
+}
+.right-section{
+    grid-column: span 5;
+    background-color: #a3a0d1;
+    height: 100%;
+}
+
+.left-content{
+    padding: 10px;
+}
+
+.business-card{
+    width: 100%;
+}
+
+.photo {
+    width: 100%;
+}
+
+.business-card img{
+    width: 100%;
+    border-radius: 50%;
+    border: 4px solid #a3a0d1;
+}
+
+.myname {
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.career {
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.titles {
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 15px;
+}
+
+.contact-info ul {
+    padding: 10px;
+}
+
+.contact-info ul li {
+    align-items: center;
+    padding: 10px;
+    display: flex;
+}
+
+.contact-info ul li i{
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.skill-section ul{
+    padding: 10px;
+}
+.skill-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10px;
+}
+
+.progress-bar{
+    width: 100%;
+    height: 10px;
+    background-color: #dfdfdf;
+    position: relative;
+    border-radius: 10px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #413f5a;
+    border-radius: 10px;
+}
+.js-progress{
+    width: 50%;
+}
+.ps-progress{
+    width: 100%;
+}
+.h-progress{
+    width: 75%;
+}
+
+
+.skill-title{
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.right-content{
+    padding: 20px;
+}
+
+.about-myself{
+    padding: 20px;
+}
+
+.text{
+    line-height: 24px;
+}
+
+.experience{
+    padding: 20px;
+}
+
+.subtitles{
+    font-size: 16px;
+    color: #0c0227;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.job-description{
+    font-size: 16px;
+    padding-left: 300px;
+    text-align: left;
+    line-height: 24px;
+    
+}
+
+.job-description ul {
+    padding: 5px;
+        
+}
+
+.job-description ul li {
+    align-items: center;
+      
+}
+
+.job-description ul li i{
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+.education{
+    padding: 20px;
+}
+
+.languages{
+    padding: 20px;
+}
+
+.code-example{
+    padding: 20px;
+}
+
+.footer{
+    min-height: auto;
+    width: 80%;
+    margin: 0px auto 20px auto;
+    padding: 60px 20px 10px 20px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: #FFFFFF;
+}
