@@ -11,23 +11,46 @@ body {
     background-color:#313131;
 }
 
+.header {
+    max-width: 1152px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+}
+
+.menu-business-card{
+    font-size: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.menu ul{
+    
+}
+
+.menu ul li{
+    list-style: none;
+}
+
 .main-content{
     min-height: 100vh;
-    width: 80%;
+    max-width: 1152px;
     margin: 20px auto 0px auto;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    display: flex;
+    flex-direction: row;
 }
 
 .left-section{
-    grid-column: span 2;
-    height: 100%;
     background-color:#777499;
 }
+
 .right-section{
-    grid-column: span 5;
-    background-color: #a3a0d1;
-    height: 100%;
+    background-color: #c3c0e2;
 }
 
 .left-content{
@@ -39,13 +62,13 @@ body {
 }
 
 .photo {
-    width: 100%;
+    max-width: 300px;
 }
 
 .business-card img{
     width: 100%;
     border-radius: 50%;
-    border: 4px solid #a3a0d1;
+    border: 4px solid #c3c0e2;
 }
 
 .myname {
@@ -88,7 +111,7 @@ body {
     font-size: 16px;
     color: #FFFFFF;
     text-align: left;
-    padding-left: 20px;
+    padding-right: 10px;
 }
 
 .skill-section ul{
@@ -115,13 +138,19 @@ body {
     border-radius: 10px;
 }
 .js-progress{
-    width: 50%;
+    width: 70%;
 }
 .ps-progress{
     width: 100%;
 }
-.h-progress{
-    width: 75%;
+.figma-progress{
+    width: 80%;
+}
+.html-progress{
+    width: 90%;
+}
+.git-progress{
+    width: 80%;
 }
 
 
@@ -151,6 +180,23 @@ body {
     line-height: 24px;
 }
 
+.job-description-wrapper {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.job-name p {
+    width: 190px;
+    line-height: 16px;
+}
+
+.job-name p {
+    font-size: 14px;
+    line-height: 16px;
+}
+
 .experience{
     padding: 20px;
 }
@@ -165,26 +211,9 @@ body {
 
 .job-description{
     font-size: 16px;
-    padding-left: 300px;
-    text-align: left;
+    padding-left: 40px;;
     line-height: 24px;
-    
-}
 
-.job-description ul {
-    padding: 5px;
-        
-}
-
-.job-description ul li {
-    align-items: center;
-      
-}
-
-.job-description ul li i{
-    font-size: 16px;
-    text-align: left;
-    
 }
 
 .education{
@@ -199,12 +228,18 @@ body {
     padding: 20px;
 }
 
+.projects {
+    padding: 20px;
+}
+
+.project-description {
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
 .footer{
-    min-height: auto;
-    width: 80%;
-    margin: 0px auto 20px auto;
-    padding: 60px 20px 10px 20px;
-    display: grid;
-    grid-template-columns: repeat(7, 1fr);
+    max-width: 1152px;
+    margin: auto;
     background-color: #FFFFFF;
 }
