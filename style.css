@@ -254,17 +254,40 @@ html {
 }
 
 .projects {
-    padding: 20px;
+    padding: 0px 20px 10px 20px;
 }
 
 .project-description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
     background-color: #FFFFFF;
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.project-description div {
+    margin: 20px;
+}
+
+.project-image {
+    width: 250px;
+    margin: 10px;
+    border: 2px solid #413f5a;
+}
+
+.project-image:hover {
+    opacity: 0.6;
+}
+
 .footer{
     max-width: 1152px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
     margin: auto;
     background-color: #FFFFFF;
 }
