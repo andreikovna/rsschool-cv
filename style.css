@@ -11,6 +11,10 @@ body {
     background-color:#313131;
 }
 
+html {
+    scroll-behavior: smooth;
+   }
+
 .header {
     max-width: 1152px;
     margin: 20px auto 0px auto;
@@ -21,21 +25,42 @@ body {
     background-color:#FFFFFF;
 }
 
-.menu-business-card{
+.header-business-card{
     font-size: 8px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 1px;
-    padding: 15px 0;
+    padding: 15px 20px;
 }
 
-.menu ul{
+.navigation ul {
+    display: flex;
+    flex-direction: row;
     
+    text-decoration: none;
+    font-size: 16px; 
 }
 
-.menu ul li{
+.navigation ul li{
     list-style: none;
+    padding: 10px;
+    margin: 0 10px;
 }
+
+.navigation ul li:hover{
+    background-color: #c3c0e2;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.navigation ul li a{
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    color: #FFFFFF;
+}
+
 
 .main-content{
     min-height: 100vh;
