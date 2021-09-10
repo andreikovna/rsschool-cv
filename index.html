@@ -21,6 +21,7 @@
           </div>
           <nav class="navigation">
               <ul>
+                  <li><a href="#video">video</a></li>
                   <li><a href="#contacts">contacts</a></li>
                   <li><a href="#skills">skills</a></li>
                   <li><a href="#experience">experience</a></li>
@@ -99,20 +100,31 @@
 
       <section class="right-section">
          <div class="right-content"> 
-            <article class="about-myself"> 
-                <h3 class="about-myself-title">About myself</h3>
+            <article class="about-myself">
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles">About myself</h3>
+                </div> 
                 <p class="text">
                     Worked in FMCG-sphere in Marketing before maternity leave. My job was quite interesting and intensive, I was responsible for contacts with our foreign partners, marketing strategy, our website.
                 </p>
                 <br>
                 <p class="text"> 
                     Now I understand that I want to change my life, I want to learn something new, that's why I started JS/Frontend courses. 
-                    As I worked with website I think I can manage with HTML/CSS. Speaking about JavaScript I will do my best to learn it. Because I can. I can do anything - I'm mom of three :)
-                </p>
+                    As I worked with website I think I can manage with HTML/CSS. Speaking about JavaScript I will do my best to learn it. 
+                </p><br>
+                <p id="#video"> My video presentation here.</p>
+                <div class="video">
+                    <video src="" poster="images/photo_cv.jpg" width="300px"></video>
+                </div>
+                
             </article> 
 
-            <h3 class="titles" id="experience">Experience</h3>
             <section class="experience"> 
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles" id="experience">Experience</h3>
+                </div>
               <div class="job-description-wrapper">
                 <div class="job-name">
                     <h4 class="subtitles">Kocmoshops</h4>
@@ -192,14 +204,24 @@
                 </div>
             </section> 
 
-            <h3 class="titles" id="education">Education</h3>
             <section class="education">
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles" id="education">Education</h3>
+                </div>
                 <h4 class="subtitles">Belorussian National Technical University</h4>
                 <p class="text">Business Administration, 2006-2011</p>
+                <br>
+                <h4 class="subtitles">The Rolling Scopes School</h4>
+                <p class="text">JS/FE Pre-school (JavaScript), 2021</p>
             </section>     
             
-            <h3 class="titles" id="languages">Languages</h3>
+            
             <section class="languages">
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles" id="languages">Languages</h3>
+                </div>
                 <h4 class="subtitles">International House, 2016</h4>
                 <p class="text">English, B1-B2, Intermediate/UpperIntermediate, 2016</p>
                 <br>
@@ -207,9 +229,12 @@
                 <p class="text">English, B1, Intermediate, 2012</p>
             </section> 
 
-            <h3 class="titles">Code example</h3>
             <section class="code-example">
-                <h4 class="subtitles">HTML</h4>
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles">Code example</h3>
+                </div>
+                <h4 class="subtitles">JavaScript</h4>
                 <pre>
                    <code>
     function convertHashToArray(hash){
@@ -226,15 +251,18 @@
                 </pre>
             </section> 
 
-            <h3 class="titles" id="projects">My projects</h3>
             <section class="projects">
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles" id="projects">My projects</h3>
+                </div>
                 <div class="project-description">
                     <div>
                         <h4 class="subtitles">museum landing page - HTML, CSS</h4>
-                        <p class="text">A landing page for Louvre. A task for RS School course.</p>
+                        <p class="text">A landing page for Louvre. <br>A task for RS School course.</p>
                     </div>
                     <div>
-                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/custom-video-player/">
+                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/custom-video-player/" target="_blank">
                             <img src="images/project-museum.png" class="project-image" alt="museum">
                         </a>
                     </div>
@@ -242,10 +270,10 @@
                 <div class="project-description">
                     <div>
                         <h4 class="subtitles">js-clock - HTML, CSS, JS</h4>
-                        <p class="text">A task for RS School course.</p>
+                        <p class="text">Simple JS Clock that shows real time. Ability to switch light/dark theme. <br>A task for RS School course.</p>
                     </div>
                     <div>
-                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/js-clock/">
+                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/js-clock/" target="_blank">
                             <img src="images/project-JS-Clock.png" class="project-image" alt="js-clock">
                         </a>
                     </div>
@@ -256,7 +284,7 @@
                         <p class="text">A task for RS School course.</p>
                     </div>
                     <div>
-                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/custom-video-player/">
+                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/custom-video-player/" target="_blank">
                             <img src="images/project-custom-video-player.png" class="project-image" alt="custom-video-player">
                         </a>
                     </div>
@@ -268,8 +296,8 @@
 
     <footer>
         <div class="footer">
-                <a href="https://rs.school/js/"><img src="images/rs_school_js.svg" alt="logo_rss" width="90"></a>
-                <a href="https://github.com/andreikovna">GitHub</a>
+                <a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="logo_rss" width="90"></a>
+                <a href="https://github.com/andreikovna" target="_blank">GitHub</a>
                 <p>2021©</p>
         </div>
     </footer>

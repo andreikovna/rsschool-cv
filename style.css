@@ -189,16 +189,25 @@ html {
     padding: 20px;
 }
 
-.about-myself-title {
-    font-size: 20px;
-    color: #FFFFFF;
-    text-align: left;
-    text-transform: uppercase;
-    padding-bottom: 20px;
+.wrapper-title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.rectangle {
+    width: 35px;
+    height: 15px;
+    background-color:#777499;
 }
 
 .about-myself{
     padding: 20px;
+}
+
+.video {
+    width: 300px;
+    margin: 20px auto 0 auto;
 }
 
 .text{
