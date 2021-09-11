@@ -8,21 +8,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="style.css"> 
     <script src="https://kit.fontawesome.com/9ff90561a4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
   </head>
   
-  <body> 
-      <main class="main-content">
-      <section class="left-section">
+  <body>
+    <header class="header">
+          <div class="header-business-card">
+            <h1>Daria Litvinova</h1>
+            <p>JavaScript/Frontend Developer</p>
+          </div>
+          <nav class="navigation">
+              <ul>
+                  <li><a href="#video">video</a></li>
+                  <li><a href="#contacts">contacts</a></li>
+                  <li><a href="#skills">skills</a></li>
+                  <li><a href="#experience">experience</a></li>
+                  <li><a href="#education">education</a></li>
+                  <li><a href="#languages">languages</a></li>
+                  <li><a href="#projects">projects</a></li>
+              </ul>  
+          </nav>
+    </header> 
+
+    <main class="main-content">
+      <aside class="left-section">
           <div class="left-content">
               <div class="business-card">
                   <div class="photo">
-                       <img src="photo_cv.jpg" alt="photo_cv">
+                       <img src="images/photo_cv.jpg" alt="photo_cv">
                   </div>
-                  <h1 class="myname">Daria Litvinova</h1>
+                  <h2 class="myname">Daria Litvinova</h2>
                   <p class="career">JavaScript/Frontend Developer</p>
               </div>
-              <div class="contact-info"> 
-                  <h2 class="titles">Contact info</h2>
+              <div class="contact-info" id="contacts"> 
+                  <h3 class="titles">Contact info</h3>
                       <ul>
                           <li>
                               <i class="fas fa-phone"></i>375295115057
@@ -38,8 +59,8 @@
                             </li>
                      </ul>
                </div>
-               <div class="skill-section">
-                    <h2 class="titles">Skills</h2>
+               <div class="skill-section" id="skills">
+                    <h3 class="titles">Skills</h3>
                     <ul>
                         <li>
                             <p class="skill-title">JavaScript</p>
@@ -54,80 +75,116 @@
                             </div>
                         </li>
                         <li>
+                            <p class="skill-title">Figma</p>
+                            <div class="progress-bar">
+                                <div class="progress figma-progress"></div>
+                            </div>
+                        </li>
+                        <li>
                             <p class="skill-title">html/css</p>
                             <div class="progress-bar">
-                                <div class="progress h-progress"></div>
+                                <div class="progress html-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Git</p>
+                            <div class="progress-bar">
+                                <div class="progress git-progress"></div>
                             </div>
                         </li>
                                     
                     </ul>
                </div>
           </div>
-      </section>
+      </aside>
 
       <section class="right-section">
          <div class="right-content"> 
-                <section class="about-myself"> 
-                <h2 class="about-myself-title">About myself</h2>
+            <article class="about-myself">
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles">About myself</h3>
+                </div> 
                 <p class="text">
                     Worked in FMCG-sphere in Marketing before maternity leave. My job was quite interesting and intensive, I was responsible for contacts with our foreign partners, marketing strategy, our website.
                 </p>
                 <br>
                 <p class="text"> 
                     Now I understand that I want to change my life, I want to learn something new, that's why I started JS/Frontend courses. 
-                    As I worked with website I think I can manage with HTML/CSS. Speaking about JavaScript I will do my best to learn it. Because I can. I can do anything - I'm mom of three :)
-                </p>
-            </section> 
+                    As I worked with website I think I can manage with HTML/CSS. Speaking about JavaScript I will do my best to learn it. 
+                </p><br>
+                <p id="#video"> My video presentation <a href="https://youtu.be/rTc2i26WJCo" target="_blank">here</a>.</p>
+                <div class="video">
+                    <iframe src="https://www.youtube.com/embed/rTc2i26WJCo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                
+            </article> 
 
-            <h2 class="titles">Experience</h2>
             <section class="experience"> 
-              <h3 class="subtitles">Kocmoshops</h3>
-              <p class="text">Head of Marketing Department</p>
-              <div class="job-description">
-                <ul>
-                    <li>
-                        management of the marketing department
-                    </li>
-                    <li>
-                        negotiations with foreign partners, launching new brands on the Belorussian market (John Frieda, Tony Molly etc.)
-                    </li>
-                    <li>
-                        expansion of the retail network of stores, planning and forecasting sales volumes
-                    </li>
-                    <li>
-                        planning and implementation of marketing advertising campaigns. Marketing reports, business plans, business reviews
-                    </li>
-                    <li>
-                        launching new website for company and online store 
-                    </li>
-                   </ul>
-            </div>
-              <h3 class="subtitles">Parfumstandard</h3>
-              <p class="text">Head of Marketing Department</p>
-              <div class="job-description">
-                <ul>
-                    <li>
-                        management of the marketing department
-                    </li>
-                    <li>
-                        negotiations with foreign partners, launching new brands on the Belorussian market (essence, CATRICE, Freeman, etc.)
-                    </li>
-                    <li>
-                        negotiation campaigns with KA-clients, commercial offers and presentations
-                    </li>
-                    <li>
-                        product trainings for clients and colleagues
-                    </li>
-                    <li>
-                        planning and forecasting sales volumes, marketing activities, marketing budget
-                    </li>
-                    <li>
-                        organization of business trips and business meetings for the CEO
-                    </li>
-                </ul>
-            </div>
-              <h3 class="subtitles">Parfumstandard</h3>
-              <p class="text">Brand Manager</p>
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles" id="experience">Experience</h3>
+                </div>
+              <div class="job-description-wrapper">
+                <div class="job-name">
+                    <h4 class="subtitles">Kocmoshops</h4>
+                    <p class="text">Head of Marketing Department</p>
+                </div>
+                <div class="job-description">
+                  <ul>
+                      <li>
+                          management of the marketing department
+                      </li>
+                      <li>
+                          negotiations with foreign partners, launching new brands (John Frieda, Tony Molly etc.)
+                      </li>
+                      <li>
+                          expansion of the retail network of stores, planning and forecasting sales volumes
+                      </li>
+                      <li>
+                          marketing advertising campaigns. Marketing reports, business plans, business reviews
+                      </li>
+                      <li>
+                          launching new website for company and online store 
+                      </li>
+                     </ul>
+                </div>
+              </div>
+              
+              <div class="job-description-wrapper">
+                <div class="job-name">
+                    <h4 class="subtitles">Parfumstandard</h4>
+                    <p class="text">Head of Marketing Department</p>
+                </div>  
+                <div class="job-description">
+                    <ul>
+                        <li>
+                            management of the marketing department
+                        </li>
+                        <li>
+                            negotiations with foreign partners, launching new brands (essence, CATRICE, Freeman, etc.)
+                        </li>
+                        <li>
+                            negotiation campaigns with KA-clients, commercial offers and presentations
+                        </li>
+                        <li>
+                            product trainings for clients and colleagues
+                        </li>
+                        <li>
+                            planning and forecasting sales volumes, marketing activities, marketing budget
+                        </li>
+                        <li>
+                            organization of business trips and business meetings for the CEO
+                        </li>
+                    </ul>
+                </div>
+              </div>
+              
+              <div class="job-description-wrapper">
+                <div class="job-name">
+                    <h4 class="subtitles">Parfumstandard</h4>
+                    <p class="text">Brand Manager</p>
+                </div>
               <div class="job-description">
                 <ul>
                     <li>
@@ -143,54 +200,107 @@
                         marketing research, analysis of pricing and consumer preferences, sales forecasts
                     </li>
                 </ul>
-            </div>
+                </div>
+                </div>
             </section> 
 
-            <h2 class="titles">Education</h2>
             <section class="education">
-                <h3 class="subtitles">Belorussian National Technical University</h3>
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles" id="education">Education</h3>
+                </div>
+                <h4 class="subtitles">Belorussian National Technical University</h4>
                 <p class="text">Business Administration, 2006-2011</p>
+                <br>
+                <h4 class="subtitles">The Rolling Scopes School</h4>
+                <p class="text">JS/FE Pre-school (JavaScript), 2021</p>
             </section>     
             
-            <h2 class="titles">Languages</h2>
+            
             <section class="languages">
-                <h3 class="subtitles">International House, 2016</h3>
-                <p class="text">B1-B2, Intermediate/UpperIntermediate, 2016</p>
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles" id="languages">Languages</h3>
+                </div>
+                <h4 class="subtitles">International House, 2016</h4>
+                <p class="text">English, B1-B2, Intermediate/UpperIntermediate, 2016</p>
                 <br>
-                <h3 class="subtitles">Foreign Languages Centre</h3>
-                <p class="text">B1, Intermediate, 2012</p>
+                <h4 class="subtitles">Foreign Languages Centre</h4>
+                <p class="text">English, B1, Intermediate, 2012</p>
             </section> 
 
-            <h2 class="titles">Code example</h2>
             <section class="code-example">
-                <h3 class="subtitles">HTML</h3>
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles">Code example</h3>
+                </div>
+                <h4 class="subtitles">JavaScript</h4>
                 <pre>
                    <code>
-        &lt;!DOCTYPE html &gt;
-            &lt;html lang="ru"&gt; 
-            &lt;head&gt;
-                &lt;meta charset="UTF-8"&gt;
-                &lt;title&gt;Базовая разметка HTML&lt;/title&gt;
-            &lt;/head&gt;
-            &lt;body&gt;
-                &lt;h1&gt;Code Basics&lt;/h1&gt;
-                &lt;h2&gt;Урок 1&lt;/h2&gt;
-                &lt;p&gt;Теги&lt;/p&gt;
-            &lt;/body&gt;
-            &lt;/html&gt;
+    function convertHashToArray(hash){
+        let ordered = {};
+        Object.keys(hash).sort().forEach(function(key) {
+            ordered[key] = hash[key];
+        });
+        let result;
+                      
+        result= Object.entries(ordered);
+        return result;
+    }
                     </code>  
                 </pre>
             </section> 
-        </div> 
-        </section>
+
+            <section class="projects">
+                <div class="wrapper-title">
+                    <div class="rectangle"></div>
+                    <h3 class="titles" id="projects">My projects</h3>
+                </div>
+                <div class="project-description">
+                    <div>
+                        <h4 class="subtitles">museum landing page - HTML, CSS</h4>
+                        <p class="text">A landing page for Louvre. <br>A task for RS School course.</p>
+                    </div>
+                    <div>
+                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/custom-video-player/" target="_blank">
+                            <img src="images/project-museum.png" class="project-image" alt="museum">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <div>
+                        <h4 class="subtitles">js-clock - HTML, CSS, JS</h4>
+                        <p class="text">Simple JS Clock that shows real time. Ability to switch light/dark theme. <br>A task for RS School course.</p>
+                    </div>
+                    <div>
+                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/js-clock/" target="_blank">
+                            <img src="images/project-JS-Clock.png" class="project-image" alt="js-clock">
+                        </a>
+                    </div>
+                </div>
+                <div class="project-description">
+                    <div>
+                        <h4 class="subtitles">custom video player- HTML, CSS, JS</h4>
+                        <p class="text">A task for RS School course.</p>
+                    </div>
+                    <div>
+                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/custom-video-player/" target="_blank">
+                            <img src="images/project-custom-video-player.png" class="project-image" alt="custom-video-player">
+                        </a>
+                    </div>
+                </div> 
+            </section>
+        </div>
+      </section>
     </main>
+
     <footer>
         <div class="footer">
-                <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="logo_rss" width="90"></a>
-                <a href="https://github.com/andreikovna">GitHub</a>
-                <p>2021</p>
+                <a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="logo_rss" width="90"></a>
+                <a href="https://github.com/andreikovna" target="_blank">GitHub</a>
+                <p>2021©</p>
         </div>
-  </footer>
+    </footer>
   </body>
  
 </html>
