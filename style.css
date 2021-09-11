@@ -4,7 +4,6 @@
     color: #000000;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     list-style: circle;
-    box-sizing: border-box;
 }
 
 body {
@@ -16,7 +15,7 @@ html {
    }
 
 .header {
-    max-width: 1152px;
+    max-width: 80%;
     margin: 20px auto 0px auto;
     display: flex;
     flex-direction: row;
@@ -36,7 +35,7 @@ html {
 .navigation ul {
     display: flex;
     flex-direction: row;
-    
+    flex-wrap: wrap;
     text-decoration: none;
     font-size: 16px; 
 }
@@ -64,10 +63,9 @@ html {
 
 .main-content{
     min-height: 100vh;
-    max-width: 1152px;
+    max-width: 80%;
     margin: 20px auto 0px auto;
     display: flex;
-    flex-direction: row;
 }
 
 .left-section{
@@ -206,8 +204,8 @@ html {
 }
 
 .video {
-    width: 300px;
-    margin: 20px auto 0 auto;
+    margin: 20px;
+    text-align: center;
 }
 
 .text{
@@ -291,12 +289,13 @@ html {
 }
 
 .footer{
-    max-width: 1152px;
+    max-width: 80%;
+    margin: 20px auto 0px auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 20px;
-    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
     background-color: #FFFFFF;
 }
