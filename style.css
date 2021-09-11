@@ -65,14 +65,19 @@ html {
     min-height: 100vh;
     max-width: 80%;
     margin: 20px auto 0px auto;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
 }
 
 .left-section{
+    grid-column: span 2;
+    height: 100%;
     background-color:#777499;
 }
 
 .right-section{
+    grid-column: span 5;
+    height: 100%;
     background-color: #c3c0e2;
 }
 
@@ -206,6 +211,12 @@ html {
 .video {
     margin: 20px;
     text-align: center;
+    position: relative;
+}
+
+.video iframe {
+    width: 80%;
+    height: 295px;
 }
 
 .text{
@@ -267,6 +278,7 @@ html {
 .project-description {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: #FFFFFF;
@@ -298,4 +310,48 @@ html {
     padding-top: 20px;
     padding-bottom: 20px;
     background-color: #FFFFFF;
+}
+
+
+/*Media Querries*/
+@media screen and (max-width:823px){
+    .right-title::after{
+        width: 40%;
+    }
+}
+@media screen and (max-width:681px){
+    .right-title::after{
+        width: 30%;
+    }
+}
+@media screen and (max-width:780px){
+    .timeline{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width:780px){
+    .left-section{
+        grid-column: span 3;
+    }
+    .right-section{
+        grid-column: span 4;
+    }
+}
+@media screen and (max-width:1200px){
+    .main-content{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .profile img{
+        width: 40%;
+    }
+}
+@media screen and (max-width:700px){
+    .profile img{
+        width: 60%;
+    }
+}
+@media screen and (max-width:390px){
+    .name{
+        font-size: 1.5rem;
+    }
 }
