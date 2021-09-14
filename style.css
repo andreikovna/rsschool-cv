@@ -15,7 +15,7 @@ html {
    }
 
 .header {
-    max-width: 80%;
+    max-width: 1152px;
     margin: 20px auto 0px auto;
     display: flex;
     flex-direction: row;
@@ -42,7 +42,7 @@ html {
 
 .navigation ul li{
     list-style: none;
-    padding: 10px;
+    padding: 4px;
     margin: 0 10px;
 }
 
@@ -63,7 +63,7 @@ html {
 
 .main-content{
     min-height: 100vh;
-    max-width: 80%;
+    max-width: 1152px;
     margin: 20px auto 0px auto;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -91,12 +91,15 @@ html {
 
 .photo {
     max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .business-card img{
     width: 100%;
     border-radius: 50%;
     border: 4px solid #c3c0e2;
+    text-align: center;
 }
 
 .myname {
@@ -181,7 +184,6 @@ html {
     width: 80%;
 }
 
-
 .skill-title{
     text-transform: uppercase;
     color: #FFFFFF;
@@ -216,7 +218,7 @@ html {
 
 .video iframe {
     width: 80%;
-    height: 295px;
+    height: 100%;
 }
 
 .text{
@@ -278,7 +280,6 @@ html {
 .project-description {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     background-color: #FFFFFF;
@@ -291,7 +292,7 @@ html {
 }
 
 .project-image {
-    width: 250px;
+    max-width: 250px;
     margin: 10px;
     border: 2px solid #413f5a;
 }
@@ -301,10 +302,11 @@ html {
 }
 
 .footer{
-    max-width: 80%;
+    max-width: 1152px;
     margin: 20px auto 0px auto;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
@@ -312,46 +314,107 @@ html {
     background-color: #FFFFFF;
 }
 
+.footer a{
+    padding-bottom: 5px;
+    margin: 5px;
+}
+
+.footer p{
+    padding-top: 5px;
+    margin: 5px;
+}
+
 
 /*Media Querries*/
-@media screen and (max-width:823px){
-    .right-title::after{
-        width: 40%;
+
+@media screen and (max-width: 910px){
+    .header-business-card{
+        width: 140px;
+        padding: 7px;
+    }   
+    .navigation ul {
+        flex-wrap: nowrap;
+        font-size: 14px;
     }
-}
-@media screen and (max-width:681px){
-    .right-title::after{
-        width: 30%;
+    .navigation ul li{
+        padding: 2px;
+        margin: 0 4px;
     }
-}
-@media screen and (max-width:780px){
-    .timeline{
-        grid-template-columns: repeat(1, 1fr);
-    }
-}
-@media screen and (max-width:780px){
     .left-section{
         grid-column: span 3;
     }
     .right-section{
         grid-column: span 4;
     }
+    .photo {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .myname {
+        font-size: 25px;
+        color: #FFFFFF;
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        padding: 15px 0;
+    }
+    .job-description-wrapper {
+        flex-wrap: wrap;
+    }
+    .project-image {
+        width: 140px;
+        margin: auto;
+    }
 }
-@media screen and (max-width:1200px){
+
+@media screen and (max-width:630px){
+    .header {
+        margin-top: 5px;
+        justify-content: space-evenly;
+    }
+    .header-business-card{
+        width: 160px;
+        padding: 10px;
+    }   
+    .navigation ul {
+        flex-direction: column;
+        margin-right: 15px;
+    }
     .main-content{
         grid-template-columns: repeat(1, 1fr);
+        margin-top: 5px;
     }
-    .profile img{
-        width: 40%;
+    .job-description-wrapper {
+        flex-wrap: wrap;
     }
-}
-@media screen and (max-width:700px){
-    .profile img{
-        width: 60%;
+    .project-description{
+        flex-wrap: wrap;
     }
-}
-@media screen and (max-width:390px){
-    .name{
+    .myname{
         font-size: 1.5rem;
     }
+    .photo {
+        max-width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .project-description {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .project-description div {
+        margin: 20px;
+    }
+    
+    .project-image {
+        width: 100%;
+        margin: auto;
+    }
+    .footer {
+        margin-top: 5px;
+    } 
 }
