@@ -24,6 +24,56 @@ html {
     background-color:#FFFFFF;
 }
 
+.menu-burger{
+    display: none;
+}
+
+.open-close-menu {
+    width: 30px;
+    height: 30px;
+    border: none;
+    margin: 5px;
+    background-color: transparent;
+    background-image: url(images/menu_lines_hamburger_icon.svg);
+}
+
+.open-close-menu:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.navigation-burger {
+    display: none;
+    margin-top: 15px;
+}
+
+.navigation-burger ul {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 14px; 
+}
+
+.navigation-burger ul li{
+    list-style: none;
+    padding: 4px;
+    margin: 0 10px 0 40px;
+}
+
+.navigation-burger ul li:hover{
+    background-color: #c3c0e2;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.navigation-burger ul li a{
+    text-decoration: none;
+}
+
+.navigation-burger ul li a:hover {
+    color: #FFFFFF;
+}
+
 .header-business-card{
     font-size: 8px;
     text-align: center;
@@ -210,17 +260,6 @@ html {
     padding: 20px;
 }
 
-/*.video {
-    margin: 20px;
-    text-align: center;
-    position: relative;
-}
-
-.video iframe {
-    width: 80%;
-    height: 100%;
-} */
-
 .video {
     position: relative;
     padding-bottom: 56.25%;
@@ -341,7 +380,7 @@ html {
 
 /*Media Querries*/
 
-@media screen and (max-width: 910px){
+@media screen and (max-width: 950px){
     .header-business-card{
         width: 140px;
         padding: 7px;
@@ -352,7 +391,7 @@ html {
     }
     .navigation ul li{
         padding: 2px;
-        margin: 0 4px;
+        margin: 0 3px;
     }
     .left-section{
         grid-column: span 3;
@@ -382,28 +421,46 @@ html {
     }
 }
 
-@media screen and (max-width:630px){
+@media screen and (max-width: 700px){
+    .project-description {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .project-description div {
+        margin: 20px;
+    }
+    .project-image {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width:650px){
     .header {
         margin-top: 5px;
-        justify-content: space-evenly;
+        flex-direction: column;
+        align-items:flex-start;
+    }
+    .wrapper-menu{
+        display: flex;
+        flex-direction: row;
     }
     .header-business-card{
-        width: 160px;
-        padding: 10px;
-    }   
-    .navigation ul {
+        display: flex;
         flex-direction: column;
-        margin-right: 15px;
+        width: 200px;
+    }   
+    .navigation {
+        display:none;
+    }
+    .menu-burger {
+        display: inline-block;
     }
     .main-content{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 5px;
-    }
-    .job-description-wrapper {
-        flex-wrap: wrap;
-    }
-    .project-description{
-        flex-wrap: wrap;
     }
     .myname{
         font-size: 1.5rem;
@@ -412,21 +469,6 @@ html {
         max-width: 200px;
         margin-left: auto;
         margin-right: auto;
-    }
-    .project-description {
-        display: flex;
-        flex-direction: column;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    
-    .project-description div {
-        margin: 20px;
-    }
-    
-    .project-image {
-        width: 100%;
-        margin: auto;
     }
     .footer {
         margin-top: 5px;
