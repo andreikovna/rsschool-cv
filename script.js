@@ -1,5 +1,5 @@
 const button = document.querySelector('.open-close-menu');
-const burger = document.querySelector('.navigation-burger')
+const burger = document.querySelector('.navigation')
 
 let openMenu = false;
 function toggleMenu() {
