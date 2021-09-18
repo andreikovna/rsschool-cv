@@ -42,38 +42,6 @@ html {
     opacity: 0.6;
 }
 
-.navigation-burger {
-    display: none;
-    margin-top: 15px;
-}
-
-.navigation-burger ul {
-    display: flex;
-    flex-direction: column;
-    text-decoration: none;
-    font-size: 14px; 
-}
-
-.navigation-burger ul li{
-    list-style: none;
-    padding: 4px;
-    margin: 0 10px 0 40px;
-}
-
-.navigation-burger ul li:hover{
-    background-color: #c3c0e2;
-    border-radius: 30px;
-    cursor: pointer;
-}
-
-.navigation-burger ul li a{
-    text-decoration: none;
-}
-
-.navigation-burger ul li a:hover {
-    color: #FFFFFF;
-}
-
 .header-business-card{
     font-size: 8px;
     text-align: center;
@@ -453,11 +421,25 @@ html {
         width: 200px;
     }   
     .navigation {
-        display:none;
+        display: none;
+        margin-top: 15px;
     }
+    
+    .navigation ul {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px; 
+    }
+    
+    .navigation ul li{
+        padding: 4px;
+        margin: 0 10px 0 40px;
+    }
+
     .menu-burger {
-        display: inline-block;
+        display: block;
     }
+    
     .main-content{
         grid-template-columns: repeat(1, 1fr);
         margin-top: 5px;
