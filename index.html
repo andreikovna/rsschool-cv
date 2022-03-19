@@ -1,313 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="CV JavaScript/Frontend">
-    <title> CV Daria Litvinova JavaScript/Frontend </title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="stylesheet" href="style.css"> 
-    <script src="https://kit.fontawesome.com/9ff90561a4.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="CV JavaScript/Frontend" />
+    <title>CV Daria Litvinova JavaScript/Frontend</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9ff90561a4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css"
+    />
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
   </head>
-  
+
   <body>
     <header class="header">
-        <div class="wrapper-menu">
-            <div class="menu-burger">
-                <button class="open-close-menu"></button>
-            </div>
-            <div class="header-business-card">
-                <h1>Daria Litvinova</h1>
-                <p>JavaScript/Frontend Developer</p>
-            </div>
+      <div class="wrapper-menu">
+        <div class="menu-burger">
+          <button class="open-close-menu"></button>
         </div>
-          <nav class="navigation">
-              <ul>
-                  <li><a href="#video">video</a></li>
-                  <li><a href="#contacts">contacts</a></li>
-                  <li><a href="#skills">skills</a></li>
-                  <li><a href="#experience">experience</a></li>
-                  <li><a href="#education">education</a></li>
-                  <li><a href="#languages">languages</a></li>
-                  <li><a href="#projects">projects</a></li>
-              </ul>  
-          </nav>
-    </header> 
+        <div class="header-business-card">
+          <h1>Daria Litvinova</h1>
+          <p>JavaScript/Frontend Developer</p>
+        </div>
+      </div>
+      <nav class="navigation">
+        <ul>
+          <li><a href="#video">video</a></li>
+          <li><a href="#contacts">contacts</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#experience">experience</a></li>
+          <li><a href="#education">education</a></li>
+          <li><a href="#languages">languages</a></li>
+          <li><a href="#projects">projects</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main class="main-content">
       <aside class="left-section">
-          <div class="left-content">
-              <div class="business-card">
-                  <div class="photo">
-                       <img src="images/photo_cv.jpg" alt="photo_cv">
-                  </div>
-                  <h2 class="myname">Daria Litvinova</h2>
-                  <p class="career">JavaScript/Frontend Developer</p>
-              </div>
-              <div class="contact-info" id="contacts"> 
-                  <h3 class="titles">Contact info</h3>
-                      <ul>
-                          <li>
-                              <i class="fas fa-phone"></i>375295115057
-                            </li>
-                          <li>
-                              <i class="fas fa-envelope"></i>d.andreikovna@gmail.com
-                            </li>
-                          <li>
-                              <i class="fab fa-github"></i>@andreikovna
-                            </li>
-                          <li>
-                              <i class="fas fa-map-marker-alt"></i>Belarus, Minsk
-                            </li>
-                     </ul>
-               </div>
-               <div class="skill-section" id="skills">
-                    <h3 class="titles">Skills</h3>
-                    <ul>
-                        <li>
-                            <p class="skill-title">JavaScript</p>
-                            <div class="progress-bar">
-                                <div class="progress js-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">Photoshop</p>
-                            <div class="progress-bar">
-                                <div class="progress ps-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">Figma</p>
-                            <div class="progress-bar">
-                                <div class="progress figma-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">html/css</p>
-                            <div class="progress-bar">
-                                <div class="progress html-progress"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <p class="skill-title">Git</p>
-                            <div class="progress-bar">
-                                <div class="progress git-progress"></div>
-                            </div>
-                        </li>
-                                    
-                    </ul>
-               </div>
+        <div class="left-content">
+          <div class="business-card">
+            <div class="photo">
+              <img src="images/photo_cv.jpg" alt="photo_cv" />
+            </div>
+            <h2 class="myname">Daria Litvinova</h2>
+            <p class="career">JavaScript/Frontend Developer</p>
           </div>
+          <div class="contact-info" id="contacts">
+            <h3 class="titles">Contact info</h3>
+            <ul>
+              <li><i class="fas fa-phone"></i>375295115057</li>
+              <li><i class="fas fa-envelope"></i>d.andreikovna@gmail.com</li>
+              <li><i class="fab fa-github"></i>@andreikovna</li>
+              <li><i class="fas fa-map-marker-alt"></i>Belarus, Minsk</li>
+            </ul>
+          </div>
+          <div class="skill-section" id="skills">
+            <h3 class="titles">Skills</h3>
+            <ul>
+              <li>
+                <p class="skill-title">JavaScript</p>
+                <div class="progress-bar">
+                  <div class="progress js-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">TypeScript</p>
+                <div class="progress-bar">
+                  <div class="progress ts-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">ReactJS</p>
+                <div class="progress-bar">
+                  <div class="progress react-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">html/css</p>
+                <div class="progress-bar">
+                  <div class="progress html-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">Git</p>
+                <div class="progress-bar">
+                  <div class="progress git-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">Figma</p>
+                <div class="progress-bar">
+                  <div class="progress figma-progress"></div>
+                </div>
+              </li>
+              <li>
+                <p class="skill-title">NodeJS</p>
+                <div class="progress-bar">
+                  <div class="progress node-progress"></div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
       </aside>
 
       <div class="right-section">
-         <div class="right-content"> 
-            <article class="about-myself">
-                <div class="wrapper-title">
-                    <div class="rectangle"></div>
-                    <h3 class="titles">About myself</h3>
-                </div> 
-                <p class="text">
-                    Worked in FMCG-sphere in Marketing before maternity leave. My job was quite interesting and intensive, I was responsible for contacts with our foreign partners, marketing strategy, our website.
-                </p>
-                <br>
-                <p class="text"> 
-                    Now I understand that I want to change my life, I want to learn something new, that's why I started JS/Frontend courses. 
-                    As I worked with website I think I can manage with HTML/CSS. Speaking about JavaScript I will do my best to learn it. 
-                </p><br>
-                <p id="video"> My video presentation <a href="https://youtu.be/9J9n9rK8t7s" target="_blank">here</a>.</p>
-                <div class="video">
-                    <iframe src="https://www.youtube.com/embed/9J9n9rK8t7s" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                
-            </article> 
+        <div class="right-content">
+          <article class="about-myself">
+            <div class="wrapper-title">
+              <div class="rectangle"></div>
+              <h3 class="titles">About myself</h3>
+            </div>
+            <p class="text">
+              Worked in FMCG-sphere in Marketing before maternity leave. My job
+              was quite interesting and intensive, I was responsible for
+              contacts with our foreign partners, marketing strategy, our
+              website.
+            </p>
+            <br />
+            <p class="text">
+              I decided to change direction and find my place in the IT-sphere.
+              I'm a hardworking, well-adapting person, fast-learning, open to
+              change. I finished JavaScript courses. I’ve just made my first
+              steps but I can say that I really like what I do, that’s all is
+              quite interesting and enthralling. I've started React and Node.js
+              courses in order to become more qualified and requiered employee.
+              Also this sphere is attractive for me because of the possibility
+              of remote working.
+            </p>
+            <br />
+            <p id="video">
+              My video presentation
+              <a href="https://youtu.be/9J9n9rK8t7s" target="_blank">here</a>.
+            </p>
+            <div class="video">
+              <iframe
+                src="https://www.youtube.com/embed/9J9n9rK8t7s"
+                title="YouTube video player"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </article>
 
-            <section class="experience"> 
-                <div class="wrapper-title">
-                    <div class="rectangle"></div>
-                    <h3 class="titles" id="experience">Experience</h3>
-                </div>
-              <div class="job-description-wrapper">
-                <div class="job-name">
-                    <h4 class="subtitles">Kocmoshops</h4>
-                    <p class="text">Head of Marketing Department</p>
-                </div>
-                <div class="job-description">
-                  <ul>
-                      <li>
-                          management of the marketing department
-                      </li>
-                      <li>
-                          negotiations with foreign partners, launching new brands (John Frieda, Tony Molly etc.)
-                      </li>
-                      <li>
-                          expansion of the retail network of stores, planning and forecasting sales volumes
-                      </li>
-                      <li>
-                          marketing advertising campaigns. Marketing reports, business plans, business reviews
-                      </li>
-                      <li>
-                          launching new website for company and online store 
-                      </li>
-                     </ul>
-                </div>
+          <section class="experience">
+            <div class="wrapper-title">
+              <div class="rectangle"></div>
+              <h3 class="titles" id="experience">Experience</h3>
+            </div>
+
+            <div class="job-description-wrapper">
+              <div class="job-name">
+                <h4 class="subtitles">RS School</h4>
+                <p class="text">contributor</p>
               </div>
-              
-              <div class="job-description-wrapper">
-                <div class="job-name">
-                    <h4 class="subtitles">Parfumstandard</h4>
-                    <p class="text">Head of Marketing Department</p>
-                </div>  
-                <div class="job-description">
-                    <ul>
-                        <li>
-                            management of the marketing department
-                        </li>
-                        <li>
-                            negotiations with foreign partners, launching new brands (essence, CATRICE, Freeman, etc.)
-                        </li>
-                        <li>
-                            negotiation campaigns with KA-clients, commercial offers and presentations
-                        </li>
-                        <li>
-                            product trainings for clients and colleagues
-                        </li>
-                        <li>
-                            planning and forecasting sales volumes, marketing activities, marketing budget
-                        </li>
-                        <li>
-                            organization of business trips and business meetings for the CEO
-                        </li>
-                    </ul>
-                </div>
-              </div>
-              
-              <div class="job-description-wrapper">
-                <div class="job-name">
-                    <h4 class="subtitles">Parfumstandard</h4>
-                    <p class="text">Brand Manager</p>
-                </div>
               <div class="job-description">
                 <ul>
-                    <li>
-                        brand promotion, product management
-                    </li>
-                    <li>
-                        marketing activities, advertising support
-                    </li>
-                    <li>
-                        communication with foreign partners
-                    </li>
-                    <li>
-                        marketing research, analysis of pricing and consumer preferences, sales forecasts
-                    </li>
+                  <li>developing some new features for application</li>
+                  <li>JS, TS, React, AntDesign library, Enzyme</li>
                 </ul>
-                </div>
-                </div>
-            </section> 
+              </div>
+            </div>
 
-            <section class="education">
-                <div class="wrapper-title">
-                    <div class="rectangle"></div>
-                    <h3 class="titles" id="education">Education</h3>
-                </div>
-                <h4 class="subtitles">Belorussian National Technical University</h4>
-                <p class="text">Business Administration, 2006-2011</p>
-                <br>
-                <h4 class="subtitles">The Rolling Scopes School</h4>
-                <p class="text">JS/FE Pre-school (JavaScript), 2021</p>
-            </section>     
-            
-            
-            <section class="languages">
-                <div class="wrapper-title">
-                    <div class="rectangle"></div>
-                    <h3 class="titles" id="languages">Languages</h3>
-                </div>
-                <h4 class="subtitles">International House, 2016</h4>
-                <p class="text">English, B1-B2, Intermediate/ UpperIntermediate, 2016</p>
-                <br>
-                <h4 class="subtitles">Foreign Languages Centre</h4>
-                <p class="text">English, B1, Intermediate, 2012</p>
-            </section> 
+            <div class="job-description-wrapper">
+              <div class="job-name">
+                <h4 class="subtitles">Kocmoshops</h4>
+                <p class="text">Head of Marketing Department</p>
+              </div>
+              <div class="job-description">
+                <ul>
+                  <li>management of the marketing department</li>
+                  <li>
+                    negotiations with foreign partners, launching new brands
+                    (John Frieda, Tony Molly etc.)
+                  </li>
+                  <li>
+                    expansion of the retail network of stores, planning and
+                    forecasting sales volumes
+                  </li>
+                  <li>
+                    marketing advertising campaigns. Marketing reports, business
+                    plans, business reviews
+                  </li>
+                  <li>launching new website for company and online store</li>
+                </ul>
+              </div>
+            </div>
 
-            <section class="code-example">
-                <div class="wrapper-title">
-                    <div class="rectangle"></div>
-                    <h3 class="titles">Code example</h3>
-                </div>
-                <h4 class="subtitles">JavaScript</h4>
-                <pre>
+            <div class="job-description-wrapper">
+              <div class="job-name">
+                <h4 class="subtitles">Parfumstandard</h4>
+                <p class="text">Head of Marketing Department</p>
+              </div>
+              <div class="job-description">
+                <ul>
+                  <li>management of the marketing department</li>
+                  <li>
+                    negotiations with foreign partners, launching new brands
+                    (essence, CATRICE, Freeman, etc.)
+                  </li>
+                  <li>
+                    negotiation campaigns with KA-clients, commercial offers and
+                    presentations
+                  </li>
+                  <li>product trainings for clients and colleagues</li>
+                  <li>
+                    planning and forecasting sales volumes, marketing
+                    activities, marketing budget
+                  </li>
+                  <li>
+                    organization of business trips and business meetings for the
+                    CEO
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="job-description-wrapper">
+              <div class="job-name">
+                <h4 class="subtitles">Parfumstandard</h4>
+                <p class="text">Brand Manager</p>
+              </div>
+              <div class="job-description">
+                <ul>
+                  <li>brand promotion, product management</li>
+                  <li>marketing activities, advertising support</li>
+                  <li>communication with foreign partners</li>
+                  <li>
+                    marketing research, analysis of pricing and consumer
+                    preferences, sales forecasts
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="education">
+            <div class="wrapper-title">
+              <div class="rectangle"></div>
+              <h3 class="titles" id="education">Education</h3>
+            </div>
+            <h4 class="subtitles">Belorussian National Technical University</h4>
+            <p class="text">Business Administration, 2006-2011</p>
+            <br />
+            <h4 class="subtitles">The Rolling Scopes School</h4>
+            <p class="text">JS/FE Pre-school (JavaScript), 2021</p>
+            <p class="text">JavaScript/Frontend, 2022</p>
+            <p class="text">ReactJS in process, 2022</p>
+            <p class="text">NodeJS in process, 2022</p>
+          </section>
+
+          <section class="languages">
+            <div class="wrapper-title">
+              <div class="rectangle"></div>
+              <h3 class="titles" id="languages">Languages</h3>
+            </div>
+            <h4 class="subtitles">International House, 2016</h4>
+            <p class="text">
+              English, B1-B2, Intermediate/ UpperIntermediate, 2016
+            </p>
+            <br />
+            <h4 class="subtitles">Foreign Languages Centre</h4>
+            <p class="text">English, B1, Intermediate, 2012</p>
+          </section>
+
+          <section class="code-example">
+            <div class="wrapper-title">
+              <div class="rectangle"></div>
+              <h3 class="titles">Code example</h3>
+            </div>
+            <h4 class="subtitles">JavaScript</h4>
+            <pre>
                    <code>
-    function convertHashToArray(hash){
-        let ordered = {};
-        Object.keys(hash).sort().forEach(function(key) {
-            ordered[key] = hash[key];
-        });
-        let result;
-                      
-        result= Object.entries(ordered);
-        return result;
-    }
-                    </code>  
+        const filter = (text: string, arr: Items[]) => {
+            const pattern = text
+                .split(" ")
+                .map((elem) => `(.*${elem})`)
+                .join("");
+            const regex = new RegExp(pattern.toLowerCase(), "g");
+            const filteredItems = arr.filter((item) =>
+                item.name.toLowerCase().match(regex)
+            );
+            return filteredItems;
+        };
+    </code>  
                 </pre>
-            </section> 
+          </section>
 
-            <section class="projects">
-                <div class="wrapper-title">
-                    <div class="rectangle"></div>
-                    <h3 class="titles" id="projects">My projects</h3>
-                </div>
-                <div class="project-description">
-                    <div>
-                        <h4 class="subtitles">museum landing page - HTML, CSS</h4>
-                        <p class="text">A landing page for Louvre. <br>A task for RS School course.</p>
-                    </div>
-                    <div>
-                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/museum/" target="_blank">
-                            <img src="images/project-museum.png" class="project-image" alt="museum">
-                        </a>
-                    </div>
-                </div>
-                <div class="project-description">
-                    <div>
-                        <h4 class="subtitles">js-clock - HTML, CSS, JS</h4>
-                        <p class="text">Simple JS Clock that shows real time. Ability to switch light/dark theme. <br>A task for RS School course.</p>
-                    </div>
-                    <div>
-                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/js-clock/" target="_blank">
-                            <img src="images/project-JS-Clock.png" class="project-image" alt="js-clock">
-                        </a>
-                    </div>
-                </div>
-                <div class="project-description">
-                    <div>
-                        <h4 class="subtitles">custom video player- HTML, CSS, JS</h4>
-                        <p class="text">A task for RS School course.</p>
-                    </div>
-                    <div>
-                        <a href="https://rolling-scopes-school.github.io/andreikovna-JSFEPRESCHOOL/custom-video-player/" target="_blank">
-                            <img src="images/project-custom-video-player.png" class="project-image" alt="custom-video-player">
-                        </a>
-                    </div>
-                </div> 
-            </section>
+          <section class="projects">
+            <div class="wrapper-title">
+              <div class="rectangle"></div>
+              <h3 class="titles" id="projects">My projects</h3>
+            </div>
+            <div class="project-description">
+              <div>
+                <h4 class="subtitles">museum landing page - HTML, CSS, JS</h4>
+                <p class="text">
+                  Landing page for Louvre. <br />Task for RS School course.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://rolling-scopes-school.github.io/andreikovna-JSFE2021Q3/museum-dom/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/museun.jpg"
+                    class="project-image"
+                    alt="museum"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="project-description">
+              <div>
+                <h4 class="subtitles">Art Quiz - HTML, CSS, JS, OOP</h4>
+                <p class="text">
+                  ArtQuiz is a quiz application for knowledge of masterpieces of
+                  painting and their authors. <br />Task for RS School course.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://rolling-scopes-school.github.io/andreikovna-JSFE2021Q3/art-quiz/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/art-quiz.jpg"
+                    class="project-image"
+                    alt="art-quiz"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="project-description">
+              <div>
+                <h4 class="subtitles">Momentum- HTML, CSS, JS</h4>
+                <p class="text">
+                  Analogue of the Chrome application with the same name. The
+                  background image and greeting changes depending on the time of
+                  day. The application has a clock, an image slider, weather
+                  widgets, an audio player, block with a quote of the day, todo
+                  list and settings. Local storage is used to store the username
+                  and location. <br />Task for RS School course.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://andreikovna-momentum.netlify.app/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/momentum.jpg"
+                    class="project-image"
+                    alt="momentum"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="project-description">
+              <div>
+                <h4 class="subtitles">
+                  Christmas Tree - HTML, CSS, TS, OOP
+                </h4>
+                <p class="text">
+                  An application that allows you to sort christmas toys by different
+                  parameters, find a toy by name, group toys by type, add toys
+                  to favorites and remove from it, with an interactive
+                  page where you can decorate the Christmas tree with the
+                  selected christmas toys. <br />Task for RS School course.
+                </p>
+              </div>
+              <div>
+                <a
+                  href="https://rolling-scopes-school.github.io/andreikovna-JSFE2021Q3/christmas-task/"
+                  target="_blank"
+                >
+                  <img
+                    src="images/christmas.png"
+                    class="project-image"
+                    alt="christmas"
+                  />
+                </a>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </main>
 
     <footer>
-        <div class="footer">
-                <a href="https://rs.school/js/" target="_blank"><img src="images/rs_school_js.svg" alt="logo_rss" width="90"></a>
-                <a href="https://github.com/andreikovna" target="_blank">GitHub</a>
-                <p>2021© by Daria Litvinova</p>
-        </div>
+      <div class="footer">
+        <a href="https://rs.school/js/" target="_blank"
+          ><img src="images/rs_school_js.svg" alt="logo_rss" width="90"
+        /></a>
+        <a href="https://github.com/andreikovna" target="_blank">GitHub</a>
+        <p>2021© by Daria Litvinova</p>
+      </div>
     </footer>
 
     <script src="script.js"></script>
   </body>
- 
 </html>
