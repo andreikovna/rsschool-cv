@@ -187,10 +187,13 @@ html {
     border-radius: 10px;
 }
 .js-progress{
-    width: 70%;
+    width: 95%;
 }
-.ps-progress{
-    width: 100%;
+.ts-progress{
+    width: 90%;
+}
+.react-progress{
+    width: 80%;
 }
 .figma-progress{
     width: 80%;
@@ -200,6 +203,9 @@ html {
 }
 .git-progress{
     width: 80%;
+}
+.node-progress{
+    width: 65%;
 }
 
 .skill-title{
